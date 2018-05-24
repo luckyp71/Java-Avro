@@ -1,0 +1,9 @@
+{"namespace": "org.example.java_avro.schema",
+ "type": "record",
+ "name": "Stock_Symbol", 
+ "fields": [
+     {"name": "symbol", "type": "string"},
+     {"name": "price",  "type": ["long", "null"]},
+     {"name": "company", "type": ["string", "null"]}
+ ]
+}
